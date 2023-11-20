@@ -1,0 +1,17 @@
+.movie-card {
+  color: white;
+}
+
+.movie-card img {
+  width: 300px;
+}
+
+.movie-card li {
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+}
+
+.movie-card span {
+  font-size: 1rem;
+}
