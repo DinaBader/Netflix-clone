@@ -1,0 +1,17 @@
+.movie-list ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: auto;
+  
+}
+
+.movie-list ul::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-list span {
+  margin-left: 45px;
+  font-size: 1.3rem;
+  color: white;
+}

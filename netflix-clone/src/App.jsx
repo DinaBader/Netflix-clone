@@ -4,7 +4,7 @@ import "./styles/index.css";
 
 const App = () => {
   return (
-    <div>
+    <div className="movies-browse">
       <MoviesBrowse />
     </div>
   );

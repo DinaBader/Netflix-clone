@@ -1,10 +1,12 @@
-import axios from "./axios";
+import axios from "../../utilities/axios"
 import React, { useEffect, useState } from "react";
-import Movie from "./Movie";
-import "../css/MovieList.css";
+import Movie from "../Movie";
+import "./style.css";
 
 function MovieList({ title, fetchURL }) {
   const [movies, setMovies] = useState([]);
+
+
 
   useEffect(() => {
     async function fetchData() {
