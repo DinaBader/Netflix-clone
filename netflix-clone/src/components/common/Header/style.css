@@ -1,0 +1,15 @@
+.header {
+  padding: 14px 30px;
+  width: 600px;
+}
+
+.header h1 {
+  color: white;
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.header p {
+  color: white;
+  font-size: 18px;
+}
