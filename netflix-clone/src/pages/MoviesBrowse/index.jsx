@@ -3,7 +3,6 @@ import "./style.css";
 import Nav from "../../components/common/Nav";
 import Header from "../../components/common/Header";
 import MovieList from "../../components/common/MovieList";
-
 import requests from "../../components/utilities/Requests";
 
 const MoviesBrowse = () => {
