@@ -1,9 +1,10 @@
-import Navbar from "./components/Navbar";
-
+import Movie_Details from "./pages/MovieDetails/Index.jsx"
 function App() {
-    return(
-      <Navbar/>
-    )
+  return (
+    <>
+      <Movie_Details/>
+    </>
+  );
 }
 
 export default App;
