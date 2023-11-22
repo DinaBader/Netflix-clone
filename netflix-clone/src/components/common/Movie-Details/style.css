@@ -1,0 +1,49 @@
+.movie-details{
+    width: 100%;
+    height: 100vh;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    box-sizing: border-box;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+}
+
+.movie-details p{
+    width:50%;
+}
+
+.background-image{
+    width: 100vw;
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+}
+
+.movie-name{
+    font-size:30px;
+    font-weight: 500;
+}
+
+.genre{
+    opacity: 0.6;
+    margin: 30px 0;
+}
+  
+.description{
+    width:70%;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.cast-name{
+    color: white;
+}
+  
+  
+  

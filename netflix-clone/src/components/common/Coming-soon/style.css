@@ -1,0 +1,38 @@
+.coming-soon{
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 25px 5vw;
+    position: relative;
+}
+
+.section-header>h2 {
+    display: inline-block;
+}
+
+.coming-soon-link .coming-soon-title {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.coming-soon-link .coming-soon-synopsis {
+    color: #a3a3a3;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.coming-soon{
+    color: #fff;
+
+}
+
+.coming-soon-wrap{
+    margin-top: 10px;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}

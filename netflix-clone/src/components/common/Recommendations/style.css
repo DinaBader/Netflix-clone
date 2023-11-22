@@ -1,0 +1,63 @@
+.container {
+    box-shadow: 8px 5px 16px 0 rgba(0, 0, 0, .37);
+    margin-top: 50px;
+    width: 1160px;
+    height: 50px;
+    position: relative;
+    background-color: rgb(49, 49, 49);
+  }
+  
+  .watch-all-you-want {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .movie-information {
+    margin-top: 100px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .movie {
+    width: 100%;
+  }
+  
+  .recommendations {
+    padding: 0 5vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .movie li {
+    width: 25%; 
+    margin-bottom: 2%; 
+  }
+  
+  .movie img {
+    width: 100%;
+    height: auto;
+    margin-left: 2%;
+    cursor: pointer;
+  }
+  
+  .heading {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 100px;
+    color: white;
+  }
+  
