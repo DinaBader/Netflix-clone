@@ -16,7 +16,12 @@ function MovieList({ title, fetchURL }) {
 
   console.log(movies);
   const movieComponents = movies.map((movie, index) => (
-    <Movie key={index} title={movie.title} imagePath={movie.backdrop_path} />
+    <Movie
+      key={index}
+      title={movie.title}
+      imagePath={movie.backdrop_path}
+      id={movie.id}
+    />
   ));
   return (
     <div className="movie-list">
