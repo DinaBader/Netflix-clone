@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./style.css";
-
+import { Link } from "react-router-dom";
 const Movie = ({ title, imagePath, id }) => {
   const imgSrc = `https://image.tmdb.org/t/p/original${imagePath}`;
 
@@ -10,12 +10,14 @@ const Movie = ({ title, imagePath, id }) => {
   // }
 
   return (
-    <div className="movie-card">
-      <li>
-        <img src={imgSrc} alt="Movie Cover" />
-        <span>{title}</span>
-      </li>
-    </div>
+    <Link to={`/movie-details/${id}`}>
+      <div className="movie-card">
+        <li>
+          <img src={imgSrc} alt="Movie Cover" />
+          <span>{title}</span>
+        </li>
+      </div>
+    </Link>
   );
 };
 
