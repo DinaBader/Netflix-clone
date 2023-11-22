@@ -11,7 +11,7 @@ const requests = {
   fetchArabicMoviesTV: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_original_language=ar&language=en-US`,
   fetchActionThriller: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=28,53&language=en-US`,
   fetchHorror: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=27&language=en-US`,
-  fetchExciting: `discover/movie?api_key=${API_KEY}&with_keywords=exciting&language=en-US`,
+  fetchExciting: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_keywords=exciting&language=en-US`,
   fetchFamilyAnimation: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=16&language=en-US`,
   fetchFamilyComedy: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=35,10751&language=en-US`,
   fetchSciFiFantasy: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=878,14&language=en-US`,

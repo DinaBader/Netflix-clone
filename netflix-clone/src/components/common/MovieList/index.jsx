@@ -20,7 +20,7 @@ function MovieList({ title, fetchURL }) {
   ));
   return (
     <div className="movie-list">
-      <span>{title}</span>
+      <span className="movie-list-title">{title}</span>
       <ul>{movieComponents}</ul>
     </div>
   );

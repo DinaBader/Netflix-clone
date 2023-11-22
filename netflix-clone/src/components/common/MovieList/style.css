@@ -9,8 +9,8 @@
   display: none;
 }
 
-.movie-list span {
-  margin-left: 45px;
+.movie-list-title {
   font-size: 1.3rem;
   color: white;
+  margin-left: 45px;
 }
