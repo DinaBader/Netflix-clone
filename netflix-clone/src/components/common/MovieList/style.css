@@ -1,0 +1,16 @@
+.movie-list ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: auto;
+}
+
+.movie-list ul::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-list-title {
+  font-size: 1.3rem;
+  color: white;
+  margin-left: 45px;
+}
