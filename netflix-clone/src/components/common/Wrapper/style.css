@@ -1,0 +1,28 @@
+.join-btn {
+    color: white;
+    border-radius: 3px;
+    padding: 9px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #e50914;
+    border: 1px solid #e50914;
+    margin: 8px;
+ }
+
+.right-side-container{
+  display: flex;
+  align-items: center;
+}
+
+.right-side-container img{
+  width:100px
+}
+
+.container{ 
+  margin-top: -10px;
+  align-items:center;
+  margin-left: 5vw;
+  display: flex;
+  color: #fff;
+}
+

@@ -1,0 +1,35 @@
+.nmtitle-section {
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 25px 5vw;
+    position: relative;
+}
+
+.section-header>h2 {
+    display: inline-block;
+}
+
+.section-header-text{
+    color: white;
+}
+
+.nm-content-horizontal-row {
+    position: relative;
+    width: 100%;
+}
+
+.nm-content-horizontal-row .nm-content-horizontal-row-item-container {
+    display: flex;
+    margin: 20px 0;
+    scrollbar-width: none;
+}
+
+.nm-content-horizontal-row-item-container li {
+    margin-right: 20px;
+    list-style: none;
+}
+  
+.nm-content-horizontal-row-item-container iframe {
+    width: 570px; 
+    height: 300px;
+}
