@@ -28,7 +28,7 @@ const MoviesBrowse = () => {
   ));
 
   return (
-    <div className="MoviesBrowse">
+    <div className="movies-browse">
       <Nav />
       <Header />
       {movieListComponents}
